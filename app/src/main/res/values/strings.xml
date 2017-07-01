@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">MedicTimeLine</string>
+  <string name="medic_two_weeks">2周</string>
+  <string name="medic_one_mouth">1月</string>
+</resources>

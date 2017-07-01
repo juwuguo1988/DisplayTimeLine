@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <LinearLayout
+    android:layout_width="368dp"
+    android:layout_height="495dp"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+    <LinearLayout
+      style="@style/common_blue_side_text_button"
+      android:layout_width="100dp"
+      android:layout_height="26dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="11dp">
+      <RelativeLayout
+        android:id="@+id/rl_medic_two_weeks"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/corner_l_half_blue_bg"
+        android:orientation="horizontal">
+        <TextView
+          android:id="@+id/tv_medic_two_weeks"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:text="@string/medic_two_weeks"
+          android:textColor="@color/white" />
+      </RelativeLayout>
+      <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/c_2bb2ba" />
+      <RelativeLayout
+        android:id="@+id/rl_medic_one_mouth"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+          android:id="@+id/tv_medic_one_mouth"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:text="@string/medic_one_mouth"
+          android:textColor="@color/c_2bb2ba" />
+      </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_marginLeft="11dp"
+      android:layout_marginRight="11dp"
+      android:orientation="vertical">
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+          <TextView
+            android:id="@+id/tv_start_time"
+            style="@style/s_666666_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6月15" />
+          <View
+            android:layout_width="1dp"
+            android:layout_height="6dp"
+            android:background="@color/c_c5c5c5" />
+        </LinearLayout>
+        <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:gravity="center_horizontal"
+          android:orientation="vertical">
+          <TextView
+            android:id="@+id/tv_middle_time"
+            style="@style/s_666666_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6月21" />
+          <View
+            android:layout_width="1dp"
+            android:layout_height="6dp"
+            android:background="@color/c_c5c5c5" />
+        </LinearLayout>
+        <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentEnd="true"
+          android:gravity="right"
+          android:orientation="vertical">
+          <TextView
+            android:id="@+id/tv_end_time"
+            style="@style/s_666666_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6月28" />
+          <View
+            android:layout_width="1dp"
+            android:layout_height="6dp"
+            android:background="@color/c_c5c5c5" />
+        </LinearLayout>
+      </RelativeLayout>
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/c_c5c5c5" />
+    </LinearLayout>
+
+    <ListView
+      android:id="@+id/lv_medic_time_line"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="11dp"
+      android:layout_marginRight="11dp"
+      android:cacheColorHint="@color/transparent"
+      android:divider="@color/transparent"
+      android:dividerHeight="0dp"
+      android:fastScrollEnabled="false"
+      android:listSelector="@android:color/transparent"
+      android:overScrollMode="never"
+      android:scrollbars="none" />
+  </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

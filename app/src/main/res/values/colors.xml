@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#3F51B5</color>
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorAccent">#FF4081</color>
+
+  <color name="white">#FFFFFF</color> <!-- 白色 -->
+  <color name="cut_line">#F7F7F7</color> <!-- 分割线 -->
+  <color name="tab_cut_line">#E5E5E5</color> <!-- 标题分割线 -->
+  <color name="input_default_gray">#DEDEDE</color> <!-- 标题名称 -->
+  <color name="transparent">#00ffffff</color> <!-- 透明 -->
+  <color name="list_home_bg">#f4f4f4</color> <!-- 灰色 -->
+  <color name="result_view">#b0000000</color>
+  <color name="viewfinder_mask">#60000000</color>
+  <color name="possible_result_points">#c0ffff00</color>
+  <color name="black">#000000</color>
+  <color name="bg_f4f4f4">#F4F4F4</color>
+  <color name="province_line_border">#D0D0D0</color>
+  <color name="c_cccccc">#CCCCCC</color> <!-- 灰色 -->
+  <color name="c_666666">#666666</color>
+  <color name="c_333333">#333333</color>
+  <color name="c_836864">#836864</color>
+  <color name="c_6dd1c8">#6DD1C8</color>
+  <color name="c_999999">#999999</color>
+  <color name="c_7ecef4">#7ECEF4</color>
+  <color name="c_f5a623">#F5A623</color>
+  <color name="c_d58500">#D58500</color>
+  <color name="c_ff4468">#FF4468</color>
+  <color name="c_ffffff">#FFFFFF</color>
+  <color name="c_d2d2d2">#D2D2D2</color>
+  <color name="c_f93e4d">#F93E4D</color> <!-- 红色 -->
+  <color name="c_c5c5c5">#C5C5C5</color>
+  <color name="c_db7831">#DB7831</color>
+  <color name="btn_press_color">#5677fc</color>
+  <color name="btn_pressed_color">#3ca0ec</color>
+  <color name="darkgray">#cccc</color>
+  <color name="c_2bb2ba">#2BB2BA</color>
+  <color name="c_fbf8f3">#FBF8F3</color>
+  <color name="c_ffdfdf">#FFDFDF</color>
+  <color name="c_ff862e">#FF862E</color>
+  <color name="c_e14434">#E14434</color>
+  <color name="c_e0e0e0">#E0E0E0</color>
+
+
+
+  <!--整体用色-->
+  <color name="primary_white_ff">#ffffff</color>
+  <color name="primary_blue_2b">#2bb2ba</color>
+  <color name="primary_blue_4a">#4a90e2</color>
+  <color name="primary_yellow_da">#dab744</color>
+  <color name="primary_orange_db">#db7831</color>
+  <color name="primary_orange_ea">#ea8d49</color>
+  <color name="primary_red_9e">#9e2b1f</color>
+  <color name="primary_red_dc">#dc4e3f</color>
+  <color name="primary_red_e1">#e14434</color>
+  <color name="primary_green_2d">#2dbb8e</color>
+  <color name="primary_gray_f4">#f4f4f4</color>
+  <color name="primary_gray_f7">#f7f7f7</color>
+  <color name="primary_gray_c5">#c5c5c5</color>
+  <color name="primary_gray_e5">#e5e5e5</color>
+  <color name="primary_gray_66">#666666</color>
+  <color name="primary_gray_99">#999999</color>
+  <color name="primary_status_color">#ffffff</color>
+
+</resources>

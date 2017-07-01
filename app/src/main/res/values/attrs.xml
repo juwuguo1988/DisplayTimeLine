@@ -1,0 +1,25 @@
+<resources>
+  <attr format="color" name="textColor" />
+  <attr format="dimension" name="textSize" />
+  <declare-styleable name="MedicTimeLineView">
+    <!--柱状图高度-->
+    <attr format="dimension" name="timeLine_chartHeight" />
+    <!--虚线宽度-->
+    <attr format="dimension" name="timeLine_lineWidth" />
+    <!--柱状图正常颜色-->
+    <attr format="color" name="timeLine_chartNormalColor" />
+    <!--柱状图部分异常颜色-->
+    <attr format="color" name="timeLine_chartPartAbnormalColor" />
+    <!--柱状图全部异常颜色-->
+    <attr format="color" name="timeLine_chartAbnormalColor" />
+    <!--文字颜色-->
+    <attr format="color" name="timeLine_textColor" />
+    <!--文字大小-->
+    <attr format="dimension" name="timeLine_textSize" />
+    <!--圆颜色-->
+    <attr format="color" name="timeLine_circleolor" />
+    <!--圆大小-->
+    <attr format="color" name="timeLine_circlesize" />
+
+  </declare-styleable>
+</resources>
