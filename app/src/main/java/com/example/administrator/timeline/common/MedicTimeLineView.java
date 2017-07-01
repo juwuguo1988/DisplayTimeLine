@@ -19,7 +19,6 @@ import java.util.List;
 
 public class MedicTimeLineView extends View {
 
-    private int dmw, dmh;
     private Context mContext;
 
     /**
@@ -64,18 +63,6 @@ public class MedicTimeLineView extends View {
     private int mTextSize;
 
     private List<String> mStatus;
-    /**
-     * Y轴最大值
-     */
-    private int mYHighestValue;
-    /**
-     * Y轴最小值
-     */
-    private int mYLowestValue;
-    /**
-     * X轴刻度
-     */
-    private int[] mXValues;
     /**
      * 药名
      */
@@ -129,12 +116,6 @@ public class MedicTimeLineView extends View {
      * 为坐标文本留出的间隔
      */
     private int mInterval;
-
-    /**
-     * 左边圆角
-     */
-    private float[] radiusArray = {0f, 0f, 0f, 0f, 0f, 0f, 0f, 0f};
-
 
     public MedicTimeLineView(Context context) {
         super(context);
