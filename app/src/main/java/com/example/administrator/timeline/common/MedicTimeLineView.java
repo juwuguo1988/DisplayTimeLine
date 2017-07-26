@@ -24,7 +24,7 @@ public class MedicTimeLineView extends View {
     /**
      * View的宽度，高度
      */
-    private int mWidth, mHeight;
+    private float mWidth, mHeight;
     /**
      * 柱状图条的高度
      */
@@ -105,7 +105,7 @@ public class MedicTimeLineView extends View {
     /**
      * X轴的间距
      */
-    private int mXScale;
+    private float mXScale;
 
     /**
      * 两周或一个月
@@ -207,7 +207,7 @@ public class MedicTimeLineView extends View {
         } else {
             mHeight = heightSpecSize;
         }
-        setMeasuredDimension(mWidth, mHeight);
+        setMeasuredDimension((int)mWidth, (int)mHeight);
     }
 
     public void setData(String yHighValue, List<Integer> xDayValues, List<Integer> xDaySize, List<String> status, List<Integer> listTag,
@@ -246,7 +246,7 @@ public class MedicTimeLineView extends View {
      * 绘制柱形图背景圆
      */
     private void drawAxisXBgValues(Canvas canvas) {
-        int circleNumber = (mWidth - getPaddingLeft() - getPaddingRight()) / (mCircleSize + mInterval);
+        int circleNumber = (int)(mWidth - getPaddingLeft() - getPaddingRight()) / (mCircleSize + mInterval);
         for (int i = 0; i < circleNumber; i++) {
             canvas.drawCircle(i * (mInterval + mCircleSize) + mCircleSize / 2, mHeight / 2, mCircleSize, mChartBgCirclePaint);
         }

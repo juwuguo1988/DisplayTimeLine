@@ -66,7 +66,7 @@ public class TimeLineAdapter extends BaseAdapter {
         }
 
         List<Integer> listday = new ArrayList<>();//一个月或者两周里面有数据的天数集合
-        List<Integer> listSize = new ArrayList<>();//一个月或者两周里面有数据的天数集合
+        List<Integer> listSize = new ArrayList<>();//一个月或者两周里面有数据的天数大小
         List<String> listStatus = new ArrayList<>();//有数据的天数每天对应的三种状态
         List<Integer> listTag = new ArrayList<>();//每一天的开头结尾状态
         for (MedicDayDataBean mddBean : datalist.get(position).getMedicDayDataBean()) {

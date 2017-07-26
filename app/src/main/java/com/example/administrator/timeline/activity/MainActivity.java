@@ -59,42 +59,42 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             List<MedicDayDataBean> mdataList = new ArrayList<>();
 
             MedicDayDataBean medicDayDataBean = new MedicDayDataBean();
-            medicDayDataBean.setStartAt("2017-6-15");
-            medicDayDataBean.setEndAt("2017-6-15");
+            medicDayDataBean.setStartAt("2017-7-11");
+            medicDayDataBean.setEndAt("2017-7-13");
             medicDayDataBean.setStatus("NORMAL");
             mdataList.add(medicDayDataBean);
 
             MedicDayDataBean medicDayDataBean2 = new MedicDayDataBean();
-            medicDayDataBean2.setStartAt("2017-6-17");
-            medicDayDataBean2.setEndAt("2017-6-19");
+            medicDayDataBean2.setStartAt("2017-7-15");
+            medicDayDataBean2.setEndAt("2017-7-16");
             medicDayDataBean2.setStatus("PARTIAL_EXCEPTION");
             mdataList.add(medicDayDataBean2);
 
             MedicDayDataBean medicDayDataBean3 = new MedicDayDataBean();
-            medicDayDataBean3.setStartAt("2017-6-22");
-            medicDayDataBean3.setEndAt("2017-6-22");
+            medicDayDataBean3.setStartAt("2017-7-18");
+            medicDayDataBean3.setEndAt("2017-7-20");
             medicDayDataBean3.setStatus("ABNORMAL");
             mdataList.add(medicDayDataBean3);
 
             MedicDayDataBean medicDayDataBean4 = new MedicDayDataBean();
-            medicDayDataBean4.setStartAt("2017-6-25");
-            medicDayDataBean4.setEndAt("2017-6-25");
+            medicDayDataBean4.setStartAt("2017-7-22");
+            medicDayDataBean4.setEndAt("2017-7-22");
             medicDayDataBean4.setStatus("PARTIAL_EXCEPTION");
             mdataList.add(medicDayDataBean4);
 
             MedicDayDataBean medicDayDataBean5 = new MedicDayDataBean();
-            medicDayDataBean5.setStartAt("2017-6-26");
-            medicDayDataBean5.setEndAt("2017-6-26");
+            medicDayDataBean5.setStartAt("2017-7-23");
+            medicDayDataBean5.setEndAt("2017-7-23");
             medicDayDataBean5.setStatus("ABNORMAL");
             mdataList.add(medicDayDataBean5);
 
             MedicDayDataBean medicDayDataBean6 = new MedicDayDataBean();
-            medicDayDataBean6.setStartAt("2017-6-27");
-            medicDayDataBean6.setEndAt("2017-6-27");
+            medicDayDataBean6.setStartAt("2017-7-24");
+            medicDayDataBean6.setEndAt("2017-7-24");
             medicDayDataBean6.setStatus("NORMAL");
             mdataList.add(medicDayDataBean6);
 
-            medicDataBean.setMedicName("阿司匹林" + i);
+            medicDataBean.setMedicName("Item" + i);
             medicDataBean.setMedicDayDataBean(mdataList);
             dataList.add(medicDataBean);
         }
